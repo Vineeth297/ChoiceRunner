@@ -11,7 +11,7 @@ public class VertexObjectSpawner : MonoBehaviour
     public Transform offsetter;
     public float objectSpawnSpeed = 0.1f;
     public Vector3 inverseRotation;
-	private float[] angles = new []{0f,90f};
+	private float[] angles = new []{0f,-90f};
 	public bool coroutined = true;
     public KeyCode togglePhysicsKey = KeyCode.Space;
     public KeyCode toggleCoroutinedPhysicssKey = KeyCode.T;
@@ -25,16 +25,18 @@ public class VertexObjectSpawner : MonoBehaviour
 
 	
 	
-    private void Start() {
+    private void Start()
+	{
         if (!spawnHolder) {
             spawnHolder = new GameObject("Spawn Holder");
         }
-        wait = new WaitForSeconds(objectSpawnSpeed);
+
+		wait = new WaitForSeconds(objectSpawnSpeed);
         if (coroutined) {
             StartCoroutine(Spawn());
         }
         else {
-          //  Spawn01();
+            Spawn01();
         }
     }
 
@@ -51,15 +53,21 @@ public class VertexObjectSpawner : MonoBehaviour
             toggleWithCoroutineReverse = !toggleWithCoroutineReverse;
             toggleWithCoroutine = !toggleWithCoroutine;
         }
+
+		// for (int i = 0; i < spawned.Count; i++)
+		// {
+		// 	spawned[i].transform.position = mesh.vertices[i];
+		// }
     }
 
     private IEnumerator Spawn () {
         objectRotation = offsetter.rotation;
         for (int i = 0; i < mesh.vertexCount; i= i+5) {
 			int index = Random.Range(0, angles.Length );
-            GameObject spawn = Instantiate(objects[Random.Range(0, objects.Length)], mesh.vertices[i] + offsetter.position + Vector3.one*(mesh.bounds.size.x/2) , Quaternion.Euler(0f,0f, angles[index]), spawnHolder.transform);
+            GameObject spawn = Instantiate(objects[Random.Range(0, objects.Length)], mesh.vertices[i] + offsetter.position , Quaternion.Euler(0f,0f, angles[index]), spawnHolder.transform);
 			//spawn.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
 			//spawn.transform.rotation = Quaternion.Euler(mesh.normals[i]);
+			
             spawned.Add(spawn);
 			
             yield return objectSpawnSpeed;
