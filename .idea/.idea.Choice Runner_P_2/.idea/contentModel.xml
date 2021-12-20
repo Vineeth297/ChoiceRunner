@@ -20,9 +20,11 @@
           <e p="readme.txt" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="GiantFunctioning.cs" t="Include" />
           <e p="ObjectSpawner.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
         </e>
+        <e p="Trial.cs" t="Include" />
         <e p="VertexObjectSpawner.cs" t="Include" />
       </e>
       <e p="Choice Runner_P_2.sln" t="IncludeFlat" />

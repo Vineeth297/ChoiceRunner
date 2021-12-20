@@ -1,12 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="deb01ad4-1392-41f7-868f-bec805aea757" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/indexLayout.xml" afterDir="false" />
+    <list default="true" id="deb01ad4-1392-41f7-868f-bec805aea757" name="Default Changelist" comment="Change in Implementation&#10;Doing manually">
+      <change afterPath="$PROJECT_DIR$/Assets/Meshes/Child.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Meshes/Child.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Meshes/Child_Rigged.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Meshes/Child_Rigged.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Meshes/Child_Standing.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Meshes/Child_Standing.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Meshes/Giant.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Meshes/Giant.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Meshes/stickman.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Meshes/stickman.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Child_Standing.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Child_Standing.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GiantFunctioning.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GiantFunctioning.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Materials/image_2021_12_20T05_49_08_742Z.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Materials/image_2021_12_20T05_49_08_742Z.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/coin.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/coin.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/image_2021_12_20T05_49_08_742Z.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/image_2021_12_20T05_49_08_742Z.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Trial.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Trial.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UserSettings/Search.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/ybot@Running.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/ybot@Running.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animators/HumanoidAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animators/HumanoidAnimator.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Meshes/low_poly_Rigged.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Meshes/low_poly_Rigged.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexObjectSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VertexObjectSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Search.settings" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Search.settings" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,22 +64,30 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/VertexObjectSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GiantFunctioning.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Trial.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/VertexObjectSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/GiantFunctioning.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GiantFunctioning.cs" />
+        <option value="$PROJECT_DIR$/Assets/Trial.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="22PFPCl5RQLqXrbEXvmmTgMKiyJ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -55,7 +108,28 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Change in Implementation&#10;Doing manually" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change in Implementation&#10;Doing manually" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1639809263992">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1639809263992" />
   </component>
 </project>
