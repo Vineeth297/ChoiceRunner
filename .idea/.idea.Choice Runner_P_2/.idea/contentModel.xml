@@ -6,6 +6,7 @@
     <e p="E:\Workspace\Choice Runner_P_2" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="CrowdController.cs" t="Include" />
         <e p="DOTween" t="Include">
           <e p="Modules" t="Include">
             <e p="DOTweenModuleAudio.cs" t="Include" />
@@ -19,13 +20,17 @@
           </e>
           <e p="readme.txt" t="Include" />
         </e>
+        <e p="Multiplier.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="ChildMovement.cs" t="Include" />
           <e p="GiantFunctioning.cs" t="Include" />
+          <e p="ObjectPoolingScript.cs" t="Include" />
           <e p="ObjectSpawner.cs" t="Include" />
+          <e p="PlayerMovement.cs" t="Include" />
           <e p="SimpleCameraController.cs" t="Include" />
+          <e p="Trial.cs" t="Include" />
+          <e p="VertexObjectSpawner.cs" t="Include" />
         </e>
-        <e p="Trial.cs" t="Include" />
-        <e p="VertexObjectSpawner.cs" t="Include" />
       </e>
       <e p="Choice Runner_P_2.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
