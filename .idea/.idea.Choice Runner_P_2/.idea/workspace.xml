@@ -19,18 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deb01ad4-1392-41f7-868f-bec805aea757" name="Default Changelist" comment="pooling onthe way&#10;need to work on snake movement&#10;12.21.21">
-      <change afterPath="$PROJECT_DIR$/Assets/CrowdFollow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SnakeRollScript.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CrowdController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CrowdController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChildMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChildMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolingScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolingScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-    </list>
+    <list default="true" id="deb01ad4-1392-41f7-868f-bec805aea757" name="Default Changelist" comment="22.12.21" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,7 +108,8 @@
     <MESSAGE value="Change in Implementation&#10;Doing manually" />
     <MESSAGE value="20.12.21&#10;done with child arrangement&#10;working on zord formation...." />
     <MESSAGE value="pooling onthe way&#10;need to work on snake movement&#10;12.21.21" />
-    <option name="LAST_COMMIT_MESSAGE" value="pooling onthe way&#10;need to work on snake movement&#10;12.21.21" />
+    <MESSAGE value="22.12.21" />
+    <option name="LAST_COMMIT_MESSAGE" value="22.12.21" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1640092140553">
