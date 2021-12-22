@@ -10,6 +10,8 @@ public class ObjectPoolingScript : MonoBehaviour
 	public List<GameObject> objectPool;
 	public int amountToPool;
 
+	public List<Rigidbody> objectRbList;
+	
 	void Awake()
 	{
 		instance = this;
@@ -19,12 +21,14 @@ public class ObjectPoolingScript : MonoBehaviour
     {
         objectPool = new List<GameObject>();
 		GameObject obj;
-		
+			
 		for (int i = 0; i < amountToPool; i++)
 		{ 
 			obj = Instantiate(objectToPool);
 			obj.SetActive(false);
+			Rigidbody objRb = obj.GetComponent<Rigidbody>();
 			objectPool.Add(obj);
+			objectRbList.Add(objRb);
 		}
     }
 

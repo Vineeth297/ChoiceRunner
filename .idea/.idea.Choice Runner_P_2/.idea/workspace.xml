@@ -19,58 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deb01ad4-1392-41f7-868f-bec805aea757" name="Default Changelist" comment="20.12.21&#10;done with child arrangement&#10;working on zord formation....">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player_Running.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player_Running.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animators/ChildAnimator.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animators/ChildAnimator.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animators/PlayerAnimatorController.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animators/PlayerAnimatorController.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animators/Player_LP_AnimatorController.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animators/Player_LP_AnimatorController.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animators/stickman.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animators/stickman.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CrowdController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/CrowdController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Child.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/Child.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/obj.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Materials/obj.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Meshes/Player_HP.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Meshes/Player_HP.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Meshes/T-Pose.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Meshes/T-Pose.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Meshes/stickman.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Meshes/stickman/Child_Rigged@Running.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Meshes/stickman/Child_Rigged@Running.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Meshes/stickman/Stickman_LP@Running.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Meshes/stickman/Stickman_LP@Running.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Meshes/stickman/Stickman_LP@T-Pose.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Meshes/stickman/Stickman_LP@T-Pose.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Multiplier.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Multiplier.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ChildMovement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ChildMovement.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolingScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolingScript.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Trial.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Trial.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/VertexObjectSpawner.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/VertexObjectSpawner.cs.meta" afterDir="false" />
+    <list default="true" id="deb01ad4-1392-41f7-868f-bec805aea757" name="Default Changelist" comment="pooling onthe way&#10;need to work on snake movement&#10;12.21.21">
+      <change afterPath="$PROJECT_DIR$/Assets/CrowdFollow.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SnakeRollScript.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/ybot@Running.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/ybot@Running.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CrowdController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CrowdController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Trial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Trial.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexObjectSpawner.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VertexObjectSpawner.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChildMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChildMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolingScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolingScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +37,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIEW_PUSH_PROTECTED_ONLY" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -86,8 +46,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/CrowdController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChildMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CrowdFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GiantFunctioning.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SnakeRollScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -99,11 +61,13 @@
         <option value="$PROJECT_DIR$/Assets/Trial.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/ObjectPoolingScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPoolingScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Multiplier.cs" />
-        <option value="$PROJECT_DIR$/Assets/CrowdController.cs" />
+        <option value="$PROJECT_DIR$/Assets/SnakeRollScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChildMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPoolingScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/CrowdController.cs" />
+        <option value="$PROJECT_DIR$/Assets/CrowdFollow.cs" />
       </list>
     </option>
   </component>
@@ -154,12 +118,13 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Change in Implementation&#10;Doing manually" />
     <MESSAGE value="20.12.21&#10;done with child arrangement&#10;working on zord formation...." />
-    <option name="LAST_COMMIT_MESSAGE" value="20.12.21&#10;done with child arrangement&#10;working on zord formation...." />
+    <MESSAGE value="pooling onthe way&#10;need to work on snake movement&#10;12.21.21" />
+    <option name="LAST_COMMIT_MESSAGE" value="pooling onthe way&#10;need to work on snake movement&#10;12.21.21" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1640005574317">
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1640092140553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1640005574317" />
+    <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1640092140553" />
   </component>
 </project>
