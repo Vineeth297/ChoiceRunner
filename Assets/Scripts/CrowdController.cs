@@ -33,45 +33,23 @@ public class CrowdController : MonoBehaviour
 			if (lastFollower == null) spawnPos = transform.position;
 			else spawnPos = lastFollower.position;
 
+			 
 			GameObject manObj = ObjectPoolingScript.instance.GetPooledObjects();
 			manObj.SetActive(true);
 			manObj.transform.position = lastFollower.transform.position;
 			CrowdFollow crowdFollow = manObj.GetComponent<CrowdFollow>();
 			crowdList.Add(manObj);
-			//ObjectPoolingScript.instance.objectRbList[i].position = lastFollower.transform.position;
-			//manObj.transform.parent = transform;
 
 			crowdFollow.charToFollow = lastFollower;
-
-
 			crowdFollow.enabled = true;
-			//crowdFollow.GetComponent<Animator>().SetTrigger("run");
+			
 			lastFollower = crowdFollow.gameObject.transform;
-
-			//crowd.Add(crowdFollow.gameObject);
+			//lastFollower.position = crowdFollow.gameObject.transform.position;
+			
 			crowdCounter += 1;
-			//crowdCountText.SetText(crowdCounter.ToString());
-			// other.transform.GetChild(0).GetComponent<AnimationControl>().EnableAnimation();
-			//other.transform.GetChild(2).gameObject.SetActive(true);
+			
 		}
 		
-		
-		// if (lastFollower == null)
-		// {
-		// 	lastFollower = this.transform;
-		// }
-		//
-		// for (int i = 0; i < num; i++)
-		// {
-		// 	Vector3 spawnPos;
-		// 	
-		// 	GameObject manObj = ObjectPoolingScript.instance.GetPooledObjects();
-		// 	manObj.SetActive(true);
-		// 	manObj.transform.position = new Vector3(Random.Range(transform.position.x-1,transform.position.x + 1),transform.position.y,Random.Range(transform.position.z-1,transform.position.z + 1));
-		// 	crowdList.Add(manObj);
-		//
-		// 	crowdCounter += 1;
-		// }
 	}
 	
 	

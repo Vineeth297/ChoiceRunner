@@ -8,10 +8,21 @@ public class CrowdFollow : MonoBehaviour
     public Transform charToFollow;
     public float damping;
 
-    private void LateUpdate()
+	public Vector3 pos;
+
+	public bool isRolling;
+	private void LateUpdate()
     {
         // Vector3 smoothPos = Vector3.Lerp(transform.position, charToFollow.position + followOffset , Time.deltaTime * damping);
         // transform.position = smoothPos;
         // transform.eulerAngles = charToFollow.eulerAngles;
-    }
+
+		if (!isRolling)
+		{
+			
+		}
+		transform.position = charToFollow.transform.position + followOffset;
+		transform.eulerAngles = charToFollow.eulerAngles;
+
+	}
 }

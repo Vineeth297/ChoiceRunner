@@ -16,6 +16,8 @@ public class PlayerMovement : MonoBehaviour
 	public bool isOnGround;
 
 	[Range(1, 3)] public float snakingSpeed;
+
+	public List<GameObject> snakeManList;
 	void Awake()
 	{
 		instance = this;
@@ -51,22 +53,28 @@ public class PlayerMovement : MonoBehaviour
 	#endif
 	}
 
-
+public Vector3 playerCurrentPosition;
 	private void OnTriggerEnter(Collider other)
 	{
-		if (other.CompareTag("TimeToSnake"))
+		if (other.CompareTag("StartSnaking"))
 		{
 			isOnGround = false;
-			StartCoroutine(DoSnake(other.gameObject));
+			SnakeMan.instance.isRotating = true;
+			StartCoroutine(DoSnake());
+			Camera.main.transform.parent = SnakeMan.instance.gameObject.transform;
 		}
 	}
 
-	IEnumerator DoSnake(GameObject player)
+	IEnumerator DoSnake()
 	{
-		for (int i = 0; i < player.transform.childCount; i++)
+		for (int i = 0; i < snakeManList.Count; i++)
 		{
-			transform.position = player.transform.GetChild(i).transform.position;
-			yield return new WaitForSeconds(Time.deltaTime * snakingSpeed);
+			snakeManList[i].SetActive(true);
+			yield return new WaitForSeconds(Time.deltaTime);
 		}
 	}
+
+	
+	
+	
 }

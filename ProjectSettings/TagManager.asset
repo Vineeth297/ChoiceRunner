@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - TimeToSnake
+  - StartSnaking
+  - EndSnaking
   layers:
   - Default
   - TransparentFX

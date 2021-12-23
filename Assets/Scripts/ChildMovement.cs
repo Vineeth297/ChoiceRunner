@@ -26,7 +26,6 @@ public class ChildMovement : MonoBehaviour
 				
 	}
 	
-	
 	void Update()
     {
 		if (PlayerMovement.instance.isOnGround)
@@ -60,22 +59,22 @@ public class ChildMovement : MonoBehaviour
 			}	
 		}
 		
-		if (Vector3.Distance(transform.position,player.position) > minimumDistance)
-		{
-			transform.position = Vector3.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
-			// transform.rotation = player.transform.rotation;
-			// if (player.transform.position.x > Screen.width/2)
-			// {
-			// 	desiredRot -= rotSpeed * Time.deltaTime;
-			// }
-			// else
-			// {
-			// 	desiredRot += rotSpeed * Time.deltaTime;
-			// }
-			// var desiredRotQ = Quaternion.Euler(transform.eulerAngles.x, desiredRot,transform.eulerAngles.z );
-			// transform.rotation = Quaternion.Lerp(transform.rotation, desiredRotQ,Time.deltaTime * damping);
-			// // transform.LookAt(player.transform);
-		}
+		// if (Vector3.Distance(transform.position,player.position) > minimumDistance)
+		// {
+		// 	transform.position = Vector3.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+		// 	// transform.rotation = player.transform.rotation;
+		// 	// if (player.transform.position.x > Screen.width/2)
+		// 	// {
+		// 	// 	desiredRot -= rotSpeed * Time.deltaTime;
+		// 	// }
+		// 	// else
+		// 	// {
+		// 	// 	desiredRot += rotSpeed * Time.deltaTime;
+		// 	// }
+		// 	// var desiredRotQ = Quaternion.Euler(transform.eulerAngles.x, desiredRot,transform.eulerAngles.z );
+		// 	// transform.rotation = Quaternion.Lerp(transform.rotation, desiredRotQ,Time.deltaTime * damping);
+		// 	// // transform.LookAt(player.transform);
+		// }
 		
 		
 	#if UNITY_EDITOR
@@ -88,4 +87,8 @@ public class ChildMovement : MonoBehaviour
           }
 	#endif
     }
+	
+	
+	
+	
 }
