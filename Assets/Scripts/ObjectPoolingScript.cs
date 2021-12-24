@@ -25,6 +25,7 @@ public class ObjectPoolingScript : MonoBehaviour
 		for (int i = 0; i < amountToPool; i++)
 		{ 
 			obj = Instantiate(objectToPool);
+			obj.name = "child " + (i + 1);
 			obj.SetActive(false);
 			Rigidbody objRb = obj.GetComponent<Rigidbody>();
 			objectPool.Add(obj);

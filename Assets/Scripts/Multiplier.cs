@@ -15,7 +15,7 @@ public class Multiplier : MonoBehaviour
 		
 		if (other.CompareTag("Player"))
 		{
-			CrowdController.instance.spawnCrowd(40);
+			CrowdController.instance.spawnCrowd(25);
 			hasPlayed = true;
 		}
 	}

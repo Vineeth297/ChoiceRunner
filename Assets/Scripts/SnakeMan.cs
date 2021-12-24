@@ -11,6 +11,8 @@ public class SnakeMan : MonoBehaviour
 
 	public float moveSpeed = 1f;
 
+	
+	
 	public GameObject endPosition;
 
 	void Awake()
@@ -32,6 +34,8 @@ public class SnakeMan : MonoBehaviour
 		{
 			isRotating = false;
 			StartCoroutine(EndSnake());
+			
+			PlayerMovement.instance.snakeManCamera.gameObject.SetActive(false);
 		}	
 	}
 	

@@ -19,6 +19,7 @@
           </e>
           <e p="readme.txt" t="Include" />
         </e>
+        <e p="lerp.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="ChildMovement.cs" t="Include" />
           <e p="CrowdController.cs" t="Include" />

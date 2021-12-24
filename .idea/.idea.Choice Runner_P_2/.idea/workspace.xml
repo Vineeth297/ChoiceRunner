@@ -19,116 +19,25 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deb01ad4-1392-41f7-868f-bec805aea757" name="Default Changelist" comment="22.12.21&#10;.">
-      <change afterPath="$PROJECT_DIR$/Assets/Meshes/StickManPoleMesh.fbx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Meshes/StickManPoleMesh.fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CrowdController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CrowdController.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CrowdFollow.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CrowdFollow.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Multiplier.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Multiplier.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SnakeMan.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SnakeMan.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SnakeRollScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SnakeRollScript.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Unsnaking.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Unsnaking.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/outfits-ic-punishman-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/outfits-ic-punishman-2.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/TMP Settings.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.json.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Sprites/EmojiOne.png.meta" afterDir="false" />
+    <list default="true" id="deb01ad4-1392-41f7-868f-bec805aea757" name="Default Changelist" comment="23.12.21">
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Giant_Image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Giant_Image.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Materials/Giant_Image.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Materials/Giant_Image.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/lerp.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/lerp.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animators/HumanoidAnimator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animators/HumanoidAnimator.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CrowdController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CrowdController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CrowdFollow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Multiplier.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Multiplier.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChildMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChildMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CrowdController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CrowdController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GiantFunctioning.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GiantFunctioning.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Multiplier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Multiplier.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolingScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolingScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SnakeRollScript.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SnakeMan.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SnakeMan.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,11 +50,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPoolingScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/lerp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SnakeMan.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChildMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GiantFunctioning.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CrowdController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Multiplier.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -157,16 +70,20 @@
         <option value="$PROJECT_DIR$/Assets/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/ObjectPoolingScript.cs" />
         <option value="$PROJECT_DIR$/Assets/SnakeRollScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPoolingScript.cs" />
         <option value="$PROJECT_DIR$/Assets/CrowdController.cs" />
         <option value="$PROJECT_DIR$/Assets/CrowdFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Unsnaking.cs" />
         <option value="$PROJECT_DIR$/Assets/SnakeMan.cs" />
         <option value="$PROJECT_DIR$/Assets/Multiplier.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CrowdController.cs" />
+        <option value="$PROJECT_DIR$/Assets/lerp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChildMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPoolingScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Multiplier.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GiantFunctioning.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SnakeMan.cs" />
       </list>
     </option>
   </component>
@@ -180,6 +97,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -191,10 +110,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="20004">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="20004" />
       <method v="2" />
     </configuration>
   </component>
@@ -220,12 +139,81 @@
     <MESSAGE value="pooling onthe way&#10;need to work on snake movement&#10;12.21.21" />
     <MESSAGE value="22.12.21" />
     <MESSAGE value="22.12.21&#10;." />
-    <option name="LAST_COMMIT_MESSAGE" value="22.12.21&#10;." />
+    <MESSAGE value="23.12.21" />
+    <option name="LAST_COMMIT_MESSAGE" value="23.12.21" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom" timestamp="1640326056514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1640326056514" />
+    <state width="1877" height="375" key="GridCell.Tab.0.center" timestamp="1640326056514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1640326056514" />
+    <state width="1877" height="375" key="GridCell.Tab.0.left" timestamp="1640326056514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1640326056514" />
+    <state width="1877" height="375" key="GridCell.Tab.0.right" timestamp="1640326056514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1640326056514" />
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom" timestamp="1640326056514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1640326056514" />
+    <state width="1877" height="375" key="GridCell.Tab.1.center" timestamp="1640326056514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1640326056514" />
+    <state width="1877" height="375" key="GridCell.Tab.1.left" timestamp="1640326056514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1640326056514" />
+    <state width="1877" height="375" key="GridCell.Tab.1.right" timestamp="1640326056514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1640326056514" />
+    <state width="1877" height="375" key="GridCell.Tab.2.bottom" timestamp="1640326056514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1640326056514" />
+    <state width="1877" height="375" key="GridCell.Tab.2.center" timestamp="1640326056514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1640326056514" />
+    <state width="1877" height="375" key="GridCell.Tab.2.left" timestamp="1640326056514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1640326056514" />
+    <state width="1877" height="375" key="GridCell.Tab.2.right" timestamp="1640326056514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1640326056514" />
+    <state width="1877" height="375" key="GridCell.Tab.3.bottom" timestamp="1640326056514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1640326056514" />
+    <state width="1877" height="375" key="GridCell.Tab.3.center" timestamp="1640326056514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1640326056514" />
+    <state width="1877" height="375" key="GridCell.Tab.3.left" timestamp="1640326056514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1640326056514" />
+    <state width="1877" height="375" key="GridCell.Tab.3.right" timestamp="1640326056514">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="375" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1640326056514" />
     <state x="552" y="240" key="Vcs.Push.Dialog.v2" timestamp="1640092140553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1640092140553" />
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1640347972461">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1640347972461" />
   </component>
 </project>

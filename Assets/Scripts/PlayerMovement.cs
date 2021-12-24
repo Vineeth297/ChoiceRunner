@@ -1,5 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Cinemachine;
+using Cinemachine.Editor;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -18,10 +21,18 @@ public class PlayerMovement : MonoBehaviour
 	[Range(1, 3)] public float snakingSpeed;
 
 	public List<GameObject> snakeManList;
+
+	public Cinemachine.CinemachineVirtualCamera giantCamera;	
+	public Cinemachine.CinemachineVirtualCamera snakeManCamera;	
 	void Awake()
 	{
 		instance = this;
 		isOnGround = true;
+	}
+
+	void Start()
+	{
+		
 	}
 	void Update()
 	{
@@ -61,7 +72,9 @@ public Vector3 playerCurrentPosition;
 			isOnGround = false;
 			SnakeMan.instance.isRotating = true;
 			StartCoroutine(DoSnake());
-			Camera.main.transform.parent = SnakeMan.instance.gameObject.transform;
+			snakeManCamera.gameObject.SetActive(true);
+			
+
 		}
 	}
 

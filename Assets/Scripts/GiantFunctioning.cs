@@ -8,7 +8,7 @@ using Unity.VisualScripting.Dependencies.NCalc;
 public class GiantFunctioning : MonoBehaviour
 {
 	public static GiantFunctioning instance;
-	
+	public float speed = 0.6f;
 	public List<GameObject> spawnManChild;
 
 	void Awake()
@@ -18,30 +18,41 @@ public class GiantFunctioning : MonoBehaviour
 	
 	public void GiantTransformation()
 	{
-		//CrowdController.instance.crowdList[4].transform.parent = this.transform;
-		CrowdController.instance.crowdList[4].transform.DOMove(spawnManChild[105].transform.localPosition, 3f);
-		spawnManChild[105].SetActive(true);
-		// CrowdController.instance.crowdList[4].SetActive(false);
-		
-		//move the children to the manchild positions
-		//after moving set children active to false and set the manchild at that position to active true...
-		// for (int i = 0; i < CrowdController.instance.crowdCounter; i++)
-		// {
-		// 	if (!spawnManChild[i].activeInHierarchy)
-		// 	{
-		// 		
-		// 		GameObject spawnObject = spawnManChild[Random.Range(0, spawnManChild.Count)];
-		// 		var child = spawnObject;
-		// 		var obj = CrowdController.instance.crowdList[i] ;
-		// 		obj.transform.DOMove(child.transform.position, 1f).OnComplete(() =>
-		// 		{
-		// 			spawnObject.SetActive(true);	
-		// 			obj.SetActive(false);
-		// 		});
-		// 		
-		// 		
-		// 	}
-		// }
+		int childNumber = CrowdController.instance.crowdList.Count;
+		for (int i = 0; i < CrowdController.instance.crowdList.Count; i++)
+		{
+			speed = 0.5f;
+			GameObject obj = CrowdController.instance.crowdList[childNumber - 1];
+			obj.GetComponent<CrowdFollow>().enabled = false;
+			
+			StartCoroutine(MoveToGiant(obj));
+			childNumber--;
+			if (childNumber < 0)
+			{
+				return;
+			}
+		}
 	}
-	
+
+	IEnumerator MoveToGiant(GameObject child)
+	{
+		print(child);
+				
+		GameObject spawnObject = spawnManChild[Random.Range(0, spawnManChild.Count-1)];
+		
+		while (Vector3.Distance(child.transform.position,spawnObject.transform.position) > 0.001f)
+		{
+			child.transform.position = Vector3.Lerp(child.transform.position,spawnObject.transform.position,speed);
+
+			if (Vector3.Distance(child.transform.position,spawnObject.transform.position) < 0.08f)
+			{
+				print("Here");
+				spawnObject.SetActive(true);
+				child.SetActive(false);
+				break;
+			}
+			
+			yield return null;
+		}
+	}
 }

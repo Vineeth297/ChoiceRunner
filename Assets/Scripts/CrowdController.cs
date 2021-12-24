@@ -36,16 +36,16 @@ public class CrowdController : MonoBehaviour
 			 
 			GameObject manObj = ObjectPoolingScript.instance.GetPooledObjects();
 			manObj.SetActive(true);
-			manObj.transform.position = lastFollower.transform.position;
-			CrowdFollow crowdFollow = manObj.GetComponent<CrowdFollow>();
+			manObj.transform.position = new Vector3(Random.Range(transform.position.x - 1f, transform.position.x + 1f),transform.position.y,Random.Range(transform.position.z, transform.position.z - 1f));//lastFollower.transform.position;
+			//CrowdFollow crowdFollow = manObj.GetComponent<CrowdFollow>();
 			crowdList.Add(manObj);
 
-			crowdFollow.charToFollow = lastFollower;
-			crowdFollow.enabled = true;
+			//crowdFollow.charToFollow = lastFollower;
+			//crowdFollow.enabled = true;
 			
-			lastFollower = crowdFollow.gameObject.transform;
+			//lastFollower = crowdFollow.gameObject.transform;
 			//lastFollower.position = crowdFollow.gameObject.transform.position;
-			
+			//new Vector3(Random.Range(transform.position.x - 1f, transform.position.x + 1f),transform.position.y,Random.Range(transform.position.z - 1f, transform.position.z + 1f));
 			crowdCounter += 1;
 			
 		}
