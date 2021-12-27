@@ -1,0 +1,506 @@
+fileFormatVersion: 2
+guid: 221f97476fc29794da96ee45e1fb7f2e
+ModelImporter:
+  serializedVersion: 21100
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: Eaglle_normal
+  - first:
+      1: 100004
+    second: joint1
+  - first:
+      1: 100006
+    second: joint10
+  - first:
+      1: 100008
+    second: joint11
+  - first:
+      1: 100010
+    second: joint12
+  - first:
+      1: 100012
+    second: joint14
+  - first:
+      1: 100014
+    second: joint15
+  - first:
+      1: 100016
+    second: joint16
+  - first:
+      1: 100018
+    second: joint17
+  - first:
+      1: 100020
+    second: joint18
+  - first:
+      1: 100022
+    second: joint2
+  - first:
+      1: 100024
+    second: joint26
+  - first:
+      1: 100026
+    second: joint27
+  - first:
+      1: 100028
+    second: joint28
+  - first:
+      1: 100030
+    second: joint3
+  - first:
+      1: 100032
+    second: joint30
+  - first:
+      1: 100034
+    second: joint36
+  - first:
+      1: 100036
+    second: joint37
+  - first:
+      1: 100038
+    second: joint38
+  - first:
+      1: 100040
+    second: joint39
+  - first:
+      1: 100042
+    second: joint4
+  - first:
+      1: 100044
+    second: joint40
+  - first:
+      1: 100046
+    second: joint41
+  - first:
+      1: 100048
+    second: joint42
+  - first:
+      1: 100050
+    second: joint43
+  - first:
+      1: 100052
+    second: joint44
+  - first:
+      1: 100054
+    second: joint45
+  - first:
+      1: 100056
+    second: joint46
+  - first:
+      1: 100058
+    second: joint6
+  - first:
+      1: 100060
+    second: joint7
+  - first:
+      1: 100062
+    second: joint8
+  - first:
+      1: 100064
+    second: joint9
+  - first:
+      1: 100066
+    second: ROOT
+  - first:
+      1: 100068
+    second: Eaglle_Normal
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: Eaglle_normal
+  - first:
+      4: 400004
+    second: joint1
+  - first:
+      4: 400006
+    second: joint10
+  - first:
+      4: 400008
+    second: joint11
+  - first:
+      4: 400010
+    second: joint12
+  - first:
+      4: 400012
+    second: joint14
+  - first:
+      4: 400014
+    second: joint15
+  - first:
+      4: 400016
+    second: joint16
+  - first:
+      4: 400018
+    second: joint17
+  - first:
+      4: 400020
+    second: joint18
+  - first:
+      4: 400022
+    second: joint2
+  - first:
+      4: 400024
+    second: joint26
+  - first:
+      4: 400026
+    second: joint27
+  - first:
+      4: 400028
+    second: joint28
+  - first:
+      4: 400030
+    second: joint3
+  - first:
+      4: 400032
+    second: joint30
+  - first:
+      4: 400034
+    second: joint36
+  - first:
+      4: 400036
+    second: joint37
+  - first:
+      4: 400038
+    second: joint38
+  - first:
+      4: 400040
+    second: joint39
+  - first:
+      4: 400042
+    second: joint4
+  - first:
+      4: 400044
+    second: joint40
+  - first:
+      4: 400046
+    second: joint41
+  - first:
+      4: 400048
+    second: joint42
+  - first:
+      4: 400050
+    second: joint43
+  - first:
+      4: 400052
+    second: joint44
+  - first:
+      4: 400054
+    second: joint45
+  - first:
+      4: 400056
+    second: joint46
+  - first:
+      4: 400058
+    second: joint6
+  - first:
+      4: 400060
+    second: joint7
+  - first:
+      4: 400062
+    second: joint8
+  - first:
+      4: 400064
+    second: joint9
+  - first:
+      4: 400066
+    second: ROOT
+  - first:
+      4: 400068
+    second: Eaglle_Normal
+  - first:
+      21: 2100000
+    second: Material #35
+  - first:
+      21: 2100002
+    second: Material #698
+  - first:
+      43: 4300000
+    second: Eaglle_normal
+  - first:
+      43: 4300002
+    second: Eaglle_Normal
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Eaglle_normal
+  - first:
+      137: 13700002
+    second: Eaglle_Normal
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 0
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 4
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Eagle_Normal(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eaglle_Normal
+      parentName: Eagle_Normal(Clone)
+      position: {x: -0, y: 0.024421189, z: -8.470329e-26}
+      rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
+      scale: {x: 7.524, y: 7.524, z: 7.524}
+    - name: ROOT
+      parentName: Eagle_Normal(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint1
+      parentName: ROOT
+      position: {x: 0, y: 0.0055789575, z: 8.2621127e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint26
+      parentName: joint1
+      position: {x: -0, y: 0.00006375275, z: -0.00076585193}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint10
+      parentName: joint26
+      position: {x: 2.8421709e-18, y: 0.0005034317, z: -0.0038853418}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint11
+      parentName: joint10
+      position: {x: 2.8421709e-18, y: -0.0007940582, z: -0.004225523}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint27
+      parentName: joint1
+      position: {x: -0, y: 0.00006375275, z: 0.0007532179}
+      rotation: {x: -0.3552195, y: 1.949178e-10, z: 0.0044591995, w: 0.9347723}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint12
+      parentName: joint27
+      position: {x: 0.000020616664, y: 0.0006567062, z: 0.001642322}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint14
+      parentName: joint12
+      position: {x: 0.000066098255, y: 0.0005705078, z: 0.0010402116}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint15
+      parentName: joint14
+      position: {x: -0.0000895314, y: -0.0001467041, z: 0.002776605}
+      rotation: {x: -0.0049175024, y: -0.48346335, z: -0.2799288, w: 0.82938457}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint16
+      parentName: joint15
+      position: {x: -0.00021356286, y: -0.0009614639, z: 0.0016642901}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint17
+      parentName: joint14
+      position: {x: 0.00010863506, y: 0.001233792, z: 0.0011692985}
+      rotation: {x: 0.5896352, y: 0.044400867, z: -0.057385467, w: 0.80440396}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint18
+      parentName: joint17
+      position: {x: -0.00023315636, y: 0.0010517577, z: -0.0015819031}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint28
+      parentName: joint1
+      position: {x: 0.00054995366, y: 0.00006375275, z: 0.00011548637}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint2
+      parentName: joint28
+      position: {x: 0.0015379234, y: 0.0007576599, z: 0.00033726534}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint3
+      parentName: joint2
+      position: {x: 0.0036691427, y: 0.0012761947, z: 0.00044415338}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint4
+      parentName: joint3
+      position: {x: 0.0041218544, y: 0.00096127, z: 0.0006448294}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint6
+      parentName: joint4
+      position: {x: 0.004430702, y: 0.00032873228, z: -0.00054010196}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint40
+      parentName: joint6
+      position: {x: 0.004675502, y: -0.0002043335, z: -0.0007312008}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint30
+      parentName: joint1
+      position: {x: 0.00073841825, y: -0.00055375666, z: -0.00050022214}
+      rotation: {x: -0.3395788, y: -0.016978944, z: -0.10333972, w: 0.93472934}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint7
+      parentName: joint30
+      position: {x: 0.0005297577, y: -0.0011555512, z: -0.0015509471}
+      rotation: {x: 0.2485035, y: 0.04186184, z: 0.03535211, w: 0.9670801}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint8
+      parentName: joint7
+      position: {x: 0.00025815333, y: -0.0015003921, z: -0.000037984657}
+      rotation: {x: 0.09239062, y: -0.009034036, z: 0.07688919, w: 0.9927086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint9
+      parentName: joint8
+      position: {x: 0.00013887223, y: -0.001424423, z: 0.00049380003}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint36
+      parentName: joint1
+      position: {x: -0.00073841994, y: -0.00055374904, z: -0.00050022407}
+      rotation: {x: 0.93473, y: 0.10333892, z: -0.016978849, w: 0.33957702}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint37
+      parentName: joint36
+      position: {x: -0.0005297561, y: 0.0011555603, z: 0.0015509438}
+      rotation: {x: 0.24850062, y: 0.04186084, z: 0.035351727, w: 0.9670809}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint38
+      parentName: joint37
+      position: {x: -0.000258152, y: 0.0015003997, z: 0.0000379879}
+      rotation: {x: 0.092391804, y: -0.009033517, z: 0.076888494, w: 0.9927086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint39
+      parentName: joint38
+      position: {x: -0.00013887194, y: 0.0014244004, z: -0.00049379986}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint41
+      parentName: joint1
+      position: {x: -0.000549952, y: 0.000063771055, z: 0.00011548639}
+      rotation: {x: 1, y: 0, z: -0, w: 0.00000004371139}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint42
+      parentName: joint41
+      position: {x: -0.0015379239, y: -0.00075764005, z: -0.0003372656}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint43
+      parentName: joint42
+      position: {x: -0.0036691236, y: -0.0012761994, z: -0.000444152}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint44
+      parentName: joint43
+      position: {x: -0.00412188, y: -0.00096127926, z: -0.00064483203}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint45
+      parentName: joint44
+      position: {x: -0.004430681, y: -0.00032872005, z: 0.000540104}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: joint46
+      parentName: joint45
+      position: {x: -0.00467552, y: 0.00020432127, z: 0.0007312}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 0.04
+    rootMotionBoneName: ROOT
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 72653ef7e2c300843867b12848f542be, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

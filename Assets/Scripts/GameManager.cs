@@ -13,11 +13,11 @@ public class GameManager : MonoBehaviour
 		instance = this;
 	}
 
-	public void GiantTransformation()
-	{
-		print("Fuck");
-		
-		GiantFunctioning.instance.GiantTransformation();
-		
-	}
+	// public void GiantTransformation()
+	// {
+	// 	print("Fuck");
+	// 	
+	// 	GiantFunctioning.instance.GiantTransformation();
+	// 	
+	// }
 }

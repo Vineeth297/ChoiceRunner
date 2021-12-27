@@ -36,6 +36,7 @@ public class SnakeMan : MonoBehaviour
 			StartCoroutine(EndSnake());
 			
 			PlayerMovement.instance.snakeManCamera.gameObject.SetActive(false);
+			
 		}	
 	}
 	
@@ -46,7 +47,7 @@ public class SnakeMan : MonoBehaviour
 			PlayerMovement.instance.snakeManList[i].SetActive(false);
 			yield return new WaitForSeconds(Time.deltaTime);
 		}
-
+		GiantFunctioning.instance.gameObject.SetActive(true);
 		PlayerMovement.instance.gameObject.transform.position = endPosition.transform.position;
 		PlayerMovement.instance.isOnGround = true;
 	}

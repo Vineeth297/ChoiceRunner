@@ -13,7 +13,7 @@ public class GiantFunctioning : MonoBehaviour
 
 	void Awake()
 	{
-		instance = this;
+		instance = this;	
 	}
 	
 	public void GiantTransformation()
@@ -35,9 +35,7 @@ public class GiantFunctioning : MonoBehaviour
 	}
 
 	IEnumerator MoveToGiant(GameObject child)
-	{
-		print(child);
-				
+	{		
 		GameObject spawnObject = spawnManChild[Random.Range(0, spawnManChild.Count-1)];
 		
 		while (Vector3.Distance(child.transform.position,spawnObject.transform.position) > 0.001f)
@@ -51,7 +49,6 @@ public class GiantFunctioning : MonoBehaviour
 				child.SetActive(false);
 				break;
 			}
-			
 			yield return null;
 		}
 	}

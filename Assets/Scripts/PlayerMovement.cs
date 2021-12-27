@@ -24,16 +24,13 @@ public class PlayerMovement : MonoBehaviour
 
 	public Cinemachine.CinemachineVirtualCamera giantCamera;	
 	public Cinemachine.CinemachineVirtualCamera snakeManCamera;	
+	
 	void Awake()
 	{
 		instance = this;
 		isOnGround = true;
 	}
 
-	void Start()
-	{
-		
-	}
 	void Update()
 	{
 		if (isOnGround)
@@ -69,13 +66,14 @@ public Vector3 playerCurrentPosition;
 	{
 		if (other.CompareTag("StartSnaking"))
 		{
+			GiantFunctioning.instance.gameObject.SetActive(false);
 			isOnGround = false;
+			
 			SnakeMan.instance.isRotating = true;
 			StartCoroutine(DoSnake());
 			snakeManCamera.gameObject.SetActive(true);
-			
-
 		}
+		
 	}
 
 	IEnumerator DoSnake()
@@ -86,7 +84,6 @@ public Vector3 playerCurrentPosition;
 			yield return new WaitForSeconds(Time.deltaTime);
 		}
 	}
-
 	
 	
 	

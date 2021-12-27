@@ -19,25 +19,142 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deb01ad4-1392-41f7-868f-bec805aea757" name="Default Changelist" comment="23.12.21">
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Giant_Image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Giant_Image.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Materials/Giant_Image.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Materials/Giant_Image.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/lerp.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/lerp.cs.meta" afterDir="false" />
+    <list default="true" id="deb01ad4-1392-41f7-868f-bec805aea757" name="Default Changelist" comment="24.12.21">
+      <change afterPath="$PROJECT_DIR$/Assets/BirdFunctioning.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BirdFunctioning.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BirdGateScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BirdGateScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Animations/Eagles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Animations/Eagles/Eagle_Attack.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Animations/Eagles/Eagle_Attack.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Animations/Eagles/Eagle_Damaged.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Animations/Eagles/Eagle_Damaged.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Animations/Eagles/Eagle_Die.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Animations/Eagles/Eagle_Die.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Animations/Eagles/Eagle_Fly.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Animations/Eagles/Eagle_Fly.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Animations/Eagles/Eagle_Idle.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Animations/Eagles/Eagle_Idle.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Animations/Eagles/Eagle_Leave.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Animations/Eagles/Eagle_Leave.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Animators.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Animators/Eagles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Animators/Eagles/Eagle.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Animators/Eagles/Eagle.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Materials/GrassSimple.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Materials/GrassSimple.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Materials/Ground.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Materials/Ground.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Materials/Pole.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Materials/Pole.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Materials/Tree.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Materials/Tree.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Meshes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Meshes/AttackDummy.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Meshes/AttackDummy.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Meshes/AttackDummy.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Meshes/AttackDummy.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Meshes/Grass.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Meshes/Grass.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Meshes/Tree.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Meshes/Tree.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Shaders/GrassAnimate.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Shaders/GrassAnimate.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Textures/T_Grass.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Textures/T_Grass.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Textures/T_Pole.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Textures/T_Pole.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Textures/Tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/DemoAssets/Textures/Tree.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/Eagle_Demo.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Demo/Eagle_Demo.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Effects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Effects/Eagles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Effects/Eagles/Eagle_Scratch.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Effects/Eagles/Eagle_Scratch.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Effects/Eagles/Eagle_Scratch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Effects/Eagles/Eagle_Scratch.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Effects/Eagles/Eagle_Scratch.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Effects/Eagles/Eagle_Scratch.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Models.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Models/Eagles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Models/Eagles/Eagle_Elite.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Models/Eagles/Eagle_Elite.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Models/Eagles/Eagle_Normal.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Models/Eagles/Eagle_Normal.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Models/Eagles/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Models/Eagles/Materials/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Models/Eagles/Materials/Materials/T_Eagle.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Models/Eagles/Materials/Materials/T_Eagle.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Models/Eagles/Materials/T_Eagle.tga" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Models/Eagles/Materials/T_Eagle.tga.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Prefabs/Eagles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Prefabs/Eagles/Eagle_Elite.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Prefabs/Eagles/Eagle_Elite.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Prefabs/Eagles/Eagle_Normal.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Prefabs/Eagles/Eagle_Normal.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/README.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/README.txt.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Scripts.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Scripts/DealDamageComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Scripts/DealDamageComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Scripts/DemoController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Scripts/DemoController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Scripts/DestroyMe.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/EgyptMonsters/Scripts/DestroyMe.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GiantGateScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/GiantGateScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Snake Red.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Snake Red.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SnakeFunctioning.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SnakeFunctioning.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SnakeGateScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SnakeGateScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Bird.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Bird.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Materials/Bird.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Materials/Bird.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Snake.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Snake.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/polyperfect.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/polyperfect/Low Poly Animated Animals.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/polyperfect/Low Poly Animated Animals/- Animator Controllers.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/polyperfect/Low Poly Animated Animals/- Animator Controllers/Snake.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/polyperfect/Low Poly Animated Animals/- Animator Controllers/Snake.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/polyperfect/Low Poly Animated Animals/- Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/polyperfect/Low Poly Animated Animals/- Materials/Animals.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/polyperfect/Low Poly Animated Animals/- Materials/Animals/Snake_Red.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/polyperfect/Low Poly Animated Animals/- Materials/Animals/Snake_Red.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/polyperfect/Low Poly Animated Animals/- Meshes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/polyperfect/Low Poly Animated Animals/- Meshes/Animals.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/polyperfect/Low Poly Animated Animals/- Meshes/Animals/Snake.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/polyperfect/Low Poly Animated Animals/- Meshes/Animals/Snake/Snake_0.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/polyperfect/Low Poly Animated Animals/- Meshes/Animals/Snake/Snake_0.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/polyperfect/Low Poly Animated Animals/- Meshes/Animals/Snake/Snake_Slither.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/polyperfect/Low Poly Animated Animals/- Meshes/Animals/Snake/Snake_Slither.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/polyperfect/Low Poly Animated Animals/- Textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/polyperfect/Low Poly Animated Animals/- Textures/Animals.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/polyperfect/Low Poly Animated Animals/- Textures/Animals/Snake_Red_COL_1k.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/polyperfect/Low Poly Animated Animals/- Textures/Animals/Snake_Red_COL_1k.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Child.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Child.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChildMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChildMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CrowdController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CrowdController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GiantFunctioning.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GiantFunctioning.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Multiplier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Multiplier.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolingScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObjectPoolingScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SnakeMan.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SnakeMan.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/lerp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/lerp.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +167,18 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectPoolingScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/lerp.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectSpawner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SnakeMan.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SnakeGateScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BirdFunctioning.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ChildMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GiantFunctioning.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CrowdController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BirdGateScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GiantGateScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SnakeMan.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SnakeFunctioning.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CrowdController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Multiplier.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -79,11 +200,16 @@
         <option value="$PROJECT_DIR$/Assets/lerp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ChildMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPoolingScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Multiplier.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GiantFunctioning.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SnakeMan.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GiantFunctioning.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/BirdFunctioning.cs" />
+        <option value="$PROJECT_DIR$/Assets/GiantGateScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/SnakeFunctioning.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Multiplier.cs" />
+        <option value="$PROJECT_DIR$/Assets/SnakeGateScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/BirdGateScript.cs" />
       </list>
     </option>
   </component>
@@ -110,10 +236,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="20004">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="20004" />
+      <option name="pid" />
       <method v="2" />
     </configuration>
   </component>
@@ -140,7 +266,8 @@
     <MESSAGE value="22.12.21" />
     <MESSAGE value="22.12.21&#10;." />
     <MESSAGE value="23.12.21" />
-    <option name="LAST_COMMIT_MESSAGE" value="23.12.21" />
+    <MESSAGE value="24.12.21" />
+    <option name="LAST_COMMIT_MESSAGE" value="24.12.21" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1877" height="375" key="GridCell.Tab.0.bottom" timestamp="1640326056514">
