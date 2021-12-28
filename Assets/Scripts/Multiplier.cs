@@ -15,7 +15,19 @@ public class Multiplier : MonoBehaviour
 		
 		if (other.CompareTag("Player"))
 		{
-			CrowdController.instance.spawnCrowd(50);
+			CrowdController.instance.spawnCrowd(25);
+			if (GiantFunctioning.instance.isGiant)
+			{
+				GiantFunctioning.instance.GiantTransformation();
+			}
+			if (SnakeFunctioning.instance.isSnake)
+			{
+				SnakeFunctioning.instance.SnakeTransformation();
+			}
+			if (BirdFunctioning.instance.isBird)
+			{
+				BirdFunctioning.instance.BirdTransformation();
+			}
 			hasPlayed = true;
 		}
 	}

@@ -8402,7 +8402,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 324327240}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1.51}
   m_LocalScale: {x: 0.19877917, y: 0.19877917, z: 0.19877917}
   m_Children: []
   m_Father: {fileID: 1761837713}
@@ -8789,7 +8789,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 333421716}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.19, y: 0.5, z: 7.09}
+  m_LocalPosition: {x: 0.04, y: 0.5, z: 7.6}
   m_LocalScale: {x: 1.786365, y: 1, z: 0.04433251}
   m_Children: []
   m_Father: {fileID: 747993514}
@@ -22005,6 +22005,8 @@ MonoBehaviour:
   - {fileID: 400191067}
   - {fileID: 1525549908}
   - {fileID: 2044966938}
+  usedBirdChildren: []
+  isBird: 0
 --- !u!1 &704091476
 GameObject:
   m_ObjectHideFlags: 0
@@ -22249,7 +22251,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 709020047}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.185, y: 0.504, z: 10.505}
+  m_LocalPosition: {x: -0.01, y: 0.504, z: 0.38}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 737644623}
@@ -24253,7 +24255,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 762976129}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.177, y: 0.5, z: 3.93}
+  m_LocalPosition: {x: 0.18, y: 0.5, z: -3.88}
   m_LocalScale: {x: 1.786365, y: 1, z: 0.04433251}
   m_Children: []
   m_Father: {fileID: 747993514}
@@ -26399,7 +26401,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectToPool: {fileID: 803129152}
   objectPool: []
-  amountToPool: 50
+  amountToPool: 100
   objectRbList: []
 --- !u!4 &855658975
 Transform:
@@ -46159,6 +46161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18abf793aa291294c8553fc1b1f1b2f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isUsed: 0
 --- !u!65 &1648649894
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46180,7 +46183,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648649892}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.052, y: 0.504, z: 10.505}
+  m_LocalPosition: {x: 0.13, y: 0.504, z: 4.29}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 683406048}
@@ -47215,7 +47218,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687258581}
   m_LocalRotation: {x: 0.16922964, y: -0.002515007, z: 0.0004318438, w: 0.98557335}
-  m_LocalPosition: {x: 0.013389439, y: 4.089031, z: -6.1834893}
+  m_LocalPosition: {x: 0.013389439, y: 4.089031, z: -13.173489}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7706601}
@@ -48244,7 +48247,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 0.5281768, y: 1}
+    m_SensorSize: {x: 0.55138123, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -48261,7 +48264,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1721122853}
   m_LocalRotation: {x: 0.16922964, y: -0.002515007, z: 0.0004318438, w: 0.98557335}
-  m_LocalPosition: {x: 0, y: 2.45, z: -3.56}
+  m_LocalPosition: {x: 0, y: 2.45, z: -10.549999}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1201241844}
@@ -49100,7 +49103,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1761837713
 Transform:
   m_ObjectHideFlags: 0
@@ -49109,7 +49112,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1761837712}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.018, y: 0.504, z: 12.159}
+  m_LocalPosition: {x: 0.018, y: 0.504, z: -0.609}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 324327242}
@@ -60037,6 +60040,7 @@ GameObject:
   - component: {fileID: 1204098854233654521}
   - component: {fileID: 1204098854233654522}
   - component: {fileID: 1204098854233654523}
+  - component: {fileID: 1204098854233654524}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -60160,6 +60164,284 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1204098854233654524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1204098854233654519}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ad388c79c370f543847b1c6b8aa4a8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MyCreatureType: 0
+  giantChildren:
+  - {fileID: 6549140198559223670}
+  - {fileID: 228245791}
+  - {fileID: 1076313359}
+  - {fileID: 1023084201}
+  - {fileID: 447758151}
+  - {fileID: 1660433623}
+  - {fileID: 1949012790}
+  - {fileID: 878440237}
+  - {fileID: 1258680310}
+  - {fileID: 406749115}
+  - {fileID: 1026641918}
+  - {fileID: 1469152284}
+  - {fileID: 1782642782}
+  - {fileID: 1965351882}
+  - {fileID: 479864279}
+  - {fileID: 1879279947}
+  - {fileID: 186119594}
+  - {fileID: 701587436}
+  - {fileID: 1782087349}
+  - {fileID: 668151807}
+  - {fileID: 887612048}
+  - {fileID: 1499853981}
+  - {fileID: 1571092145}
+  - {fileID: 1379249959}
+  - {fileID: 381587976}
+  - {fileID: 333047037}
+  - {fileID: 1100415581}
+  - {fileID: 1642091868}
+  - {fileID: 603174291}
+  - {fileID: 406372119}
+  - {fileID: 519924410}
+  - {fileID: 1960413480}
+  - {fileID: 889026474}
+  - {fileID: 1589109877}
+  - {fileID: 831329662}
+  - {fileID: 145082428}
+  - {fileID: 1555103046}
+  - {fileID: 1142231890}
+  - {fileID: 238271154}
+  - {fileID: 641586413}
+  - {fileID: 1951429092}
+  - {fileID: 870131844}
+  - {fileID: 462793435}
+  - {fileID: 1557122970}
+  - {fileID: 1911836483}
+  - {fileID: 203289817}
+  - {fileID: 586867770}
+  - {fileID: 1278735617}
+  - {fileID: 1981966233}
+  - {fileID: 508788121}
+  - {fileID: 217298026}
+  - {fileID: 1760812083}
+  - {fileID: 1714915646}
+  - {fileID: 453709665}
+  - {fileID: 474028417}
+  - {fileID: 573485159}
+  - {fileID: 1466450329}
+  - {fileID: 561139131}
+  - {fileID: 1671265773}
+  - {fileID: 1040873125}
+  - {fileID: 36436969}
+  - {fileID: 1283533179}
+  - {fileID: 1679645085}
+  - {fileID: 2111230070}
+  - {fileID: 110423643}
+  - {fileID: 1474354606}
+  - {fileID: 690920425}
+  - {fileID: 1401062662}
+  - {fileID: 1709556946}
+  - {fileID: 342622499}
+  - {fileID: 56204820}
+  - {fileID: 640480359}
+  - {fileID: 232579055}
+  - {fileID: 1862093178}
+  - {fileID: 811983833}
+  - {fileID: 1117536582}
+  - {fileID: 206220625}
+  - {fileID: 1496232959}
+  - {fileID: 1012528310}
+  - {fileID: 761085774}
+  - {fileID: 1601154078}
+  - {fileID: 1065973392}
+  - {fileID: 1508781953}
+  - {fileID: 1565350484}
+  - {fileID: 1164407104}
+  - {fileID: 1970985859}
+  - {fileID: 1704694787}
+  - {fileID: 2043831189}
+  - {fileID: 557258803}
+  - {fileID: 761611353}
+  - {fileID: 1226365497}
+  - {fileID: 445739960}
+  - {fileID: 2138077594}
+  - {fileID: 414184331}
+  - {fileID: 637867361}
+  - {fileID: 249429896}
+  - {fileID: 956763468}
+  - {fileID: 862052261}
+  - {fileID: 1654953876}
+  - {fileID: 1759399275}
+  - {fileID: 527554747}
+  - {fileID: 1161214288}
+  - {fileID: 391666837}
+  - {fileID: 740607895}
+  - {fileID: 42536353}
+  - {fileID: 1164017372}
+  - {fileID: 629503548}
+  - {fileID: 1541259036}
+  - {fileID: 615036718}
+  - {fileID: 78610253}
+  - {fileID: 981136793}
+  - {fileID: 36260867}
+  - {fileID: 1000696076}
+  - {fileID: 1041978739}
+  - {fileID: 294403975}
+  - {fileID: 1579842139}
+  - {fileID: 1152231850}
+  - {fileID: 1197560188}
+  - {fileID: 982617774}
+  - {fileID: 1290952565}
+  - {fileID: 595163421}
+  - {fileID: 665758766}
+  - {fileID: 1771953925}
+  - {fileID: 233443025}
+  - {fileID: 709262878}
+  - {fileID: 921521328}
+  - {fileID: 13974229}
+  - {fileID: 1591040180}
+  - {fileID: 1934701188}
+  - {fileID: 417621131}
+  - {fileID: 221898830}
+  - {fileID: 1435399549}
+  - {fileID: 211087332}
+  - {fileID: 1146742194}
+  - {fileID: 1280398924}
+  - {fileID: 1928503025}
+  - {fileID: 1633179360}
+  - {fileID: 120234078}
+  - {fileID: 1405959484}
+  - {fileID: 912917302}
+  - {fileID: 1238602070}
+  - {fileID: 2114113855}
+  - {fileID: 1788823924}
+  - {fileID: 112172207}
+  - {fileID: 993423653}
+  - {fileID: 1327657720}
+  - {fileID: 352961666}
+  - {fileID: 799868088}
+  - {fileID: 1800744996}
+  - {fileID: 2073163267}
+  - {fileID: 178731181}
+  - {fileID: 2016092372}
+  - {fileID: 2003500430}
+  - {fileID: 303480177}
+  - {fileID: 788776275}
+  snakeChildren:
+  - {fileID: 1918364236}
+  - {fileID: 1037759619}
+  - {fileID: 675100188}
+  - {fileID: 1895315098}
+  - {fileID: 936840726}
+  - {fileID: 172159263}
+  - {fileID: 1523188122}
+  - {fileID: 1322146271}
+  - {fileID: 1815601752}
+  - {fileID: 658469451}
+  - {fileID: 1504606847}
+  - {fileID: 1921202627}
+  - {fileID: 597372111}
+  - {fileID: 1981382109}
+  - {fileID: 1896293996}
+  - {fileID: 1240632875}
+  - {fileID: 467358155}
+  - {fileID: 756543116}
+  - {fileID: 90618208}
+  - {fileID: 422522623}
+  - {fileID: 1460415819}
+  - {fileID: 714234114}
+  - {fileID: 405375645}
+  - {fileID: 1266497101}
+  - {fileID: 579804210}
+  - {fileID: 1208253591}
+  - {fileID: 2138049366}
+  - {fileID: 634272178}
+  - {fileID: 1148762252}
+  - {fileID: 301400999}
+  - {fileID: 1782609696}
+  - {fileID: 1883898427}
+  - {fileID: 1818491624}
+  - {fileID: 531131248}
+  - {fileID: 276002129}
+  - {fileID: 247037038}
+  - {fileID: 339808135}
+  - {fileID: 2040722321}
+  - {fileID: 88350752}
+  - {fileID: 1310922113}
+  - {fileID: 422741422}
+  - {fileID: 472936931}
+  - {fileID: 531254747}
+  - {fileID: 1775363587}
+  - {fileID: 988881539}
+  - {fileID: 1564538360}
+  - {fileID: 496900914}
+  - {fileID: 1684883814}
+  - {fileID: 1942522770}
+  - {fileID: 1087702303}
+  - {fileID: 259757622}
+  - {fileID: 1976108965}
+  - {fileID: 29250142}
+  - {fileID: 986785514}
+  - {fileID: 1981702802}
+  birdChildren:
+  - {fileID: 1500003877}
+  - {fileID: 1725997714}
+  - {fileID: 1280337642}
+  - {fileID: 601660538}
+  - {fileID: 1501071274}
+  - {fileID: 2103256300}
+  - {fileID: 1871383527}
+  - {fileID: 270009646}
+  - {fileID: 1341207571}
+  - {fileID: 1034493001}
+  - {fileID: 1238931936}
+  - {fileID: 599236946}
+  - {fileID: 121135709}
+  - {fileID: 1152433360}
+  - {fileID: 965668805}
+  - {fileID: 355129127}
+  - {fileID: 864241732}
+  - {fileID: 348195953}
+  - {fileID: 1279343210}
+  - {fileID: 366551016}
+  - {fileID: 802056601}
+  - {fileID: 248911297}
+  - {fileID: 1684370085}
+  - {fileID: 151367772}
+  - {fileID: 1983710132}
+  - {fileID: 2101878071}
+  - {fileID: 636640355}
+  - {fileID: 320790174}
+  - {fileID: 2037055174}
+  - {fileID: 1998498109}
+  - {fileID: 16185675}
+  - {fileID: 1234943177}
+  - {fileID: 801450005}
+  - {fileID: 2021507242}
+  - {fileID: 1196819057}
+  - {fileID: 592718551}
+  - {fileID: 1455488313}
+  - {fileID: 925534166}
+  - {fileID: 827597441}
+  - {fileID: 1477295023}
+  - {fileID: 2082283192}
+  - {fileID: 494692146}
+  - {fileID: 750764252}
+  - {fileID: 580038063}
+  - {fileID: 1129988386}
+  - {fileID: 1467514140}
+  - {fileID: 1555946425}
+  - {fileID: 400191067}
+  - {fileID: 1525549908}
+  - {fileID: 2044966938}
+  usedChildren: []
+  speed: 0.6
 --- !u!4 &1210467266865824821
 Transform:
   m_ObjectHideFlags: 0
@@ -60729,7 +61011,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1204098854233654519}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -6.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3949799510561153834}
@@ -62257,6 +62539,8 @@ MonoBehaviour:
   - {fileID: 2003500430}
   - {fileID: 303480177}
   - {fileID: 788776275}
+  usedGiantManChildren: []
+  isGiant: 0
 --- !u!4 &4459391569249302866
 Transform:
   m_ObjectHideFlags: 0
@@ -64328,7 +64612,9 @@ MonoBehaviour:
   - {fileID: 29250142}
   - {fileID: 986785514}
   - {fileID: 1981702802}
+  usedSnakeChildren: []
   speed: 0.6
+  isSnake: 0
 --- !u!1 &6168579407623744099
 GameObject:
   m_ObjectHideFlags: 0

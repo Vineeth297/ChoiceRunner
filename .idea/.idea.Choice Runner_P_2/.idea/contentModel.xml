@@ -39,6 +39,7 @@
         <e p="GiantGateScript.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="ChildMovement.cs" t="Include" />
+          <e p="CreatureFunctioning.cs" t="Include" />
           <e p="CrowdController.cs" t="Include" />
           <e p="CrowdFollow.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
@@ -50,7 +51,6 @@
           <e p="SimpleCameraController.cs" t="Include" />
           <e p="SnakeMan.cs" t="Include" />
           <e p="SnakeRollScript.cs" t="Include" />
-          <e p="Trial.cs" t="Include" />
           <e p="Unsnaking.cs" t="Include" />
           <e p="VertexObjectSpawner.cs" t="Include" />
         </e>

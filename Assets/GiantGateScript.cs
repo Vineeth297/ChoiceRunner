@@ -14,7 +14,10 @@ public class GiantGateScript : MonoBehaviour
 		{
 			print("player came here");
 			GiantFunctioning.instance.GiantTransformation();
+
 			isUsed = true;	
 		}
 	}
+	
+	
 }
