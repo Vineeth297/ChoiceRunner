@@ -12,8 +12,8 @@ public class GiantGateScript : MonoBehaviour
 
 		if (other.CompareTag("Player"))
 		{
-			print("player came here");
-			GiantFunctioning.instance.GiantTransformation();
+			// print("player came here");
+			// GiantFunctioning.instance.GiantTransformation();
 
 			isUsed = true;	
 		}

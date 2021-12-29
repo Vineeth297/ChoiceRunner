@@ -15,19 +15,16 @@ public class Multiplier : MonoBehaviour
 		
 		if (other.CompareTag("Player"))
 		{
-			CrowdController.instance.spawnCrowd(25);
-			if (GiantFunctioning.instance.isGiant)
+			if(PlayerMovement.instance.CurrentSpecies == Species.Human)
+				CrowdController.instance.spawnCrowd(100);
+
+			if (PlayerMovement.instance.CurrentSpecies == Species.Creature)
 			{
-				GiantFunctioning.instance.GiantTransformation();
+				print("2nd Loop");
+				CrowdController.instance.spawnCrowd(50);
+				CreatureFunctioning.instance.CreatureTransformation(PlayerMovement.instance.CurrentSpecies,PlayerMovement.instance.currentCreatureType);				
 			}
-			if (SnakeFunctioning.instance.isSnake)
-			{
-				SnakeFunctioning.instance.SnakeTransformation();
-			}
-			if (BirdFunctioning.instance.isBird)
-			{
-				BirdFunctioning.instance.BirdTransformation();
-			}
+			
 			hasPlayed = true;
 		}
 	}

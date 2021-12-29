@@ -19,19 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deb01ad4-1392-41f7-868f-bec805aea757" name="Default Changelist" comment="27.12.21">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CreatureFunctioning.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="deb01ad4-1392-41f7-868f-bec805aea757" name="Default Changelist" comment="28.12.21&#10;Need to ReUse Code">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Choice Runner_P_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BirdFunctioning.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BirdFunctioning.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BirdGateScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BirdGateScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GiantGateScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GiantGateScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GiantFunctioning.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GiantFunctioning.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CreatureFunctioning.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CreatureFunctioning.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CrowdFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CrowdFollow.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Multiplier.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Multiplier.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trial.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Trial.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SnakeFunctioning.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SnakeFunctioning.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SnakeGateScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SnakeGateScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CrowdFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GiantGateScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SnakeRollScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SnakeMan.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CrowdController.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SnakeFunctioning.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CrowdController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Multiplier.cs" root0="FORCE_HIGHLIGHTING" />
@@ -81,15 +82,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ObjectPoolingScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SnakeMan.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/BirdGateScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GiantFunctioning.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Multiplier.cs" />
         <option value="$PROJECT_DIR$/Assets/SnakeFunctioning.cs" />
-        <option value="$PROJECT_DIR$/Assets/GiantGateScript.cs" />
         <option value="$PROJECT_DIR$/Assets/BirdFunctioning.cs" />
+        <option value="$PROJECT_DIR$/Assets/GiantGateScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/BirdGateScript.cs" />
         <option value="$PROJECT_DIR$/Assets/SnakeGateScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CrowdFollow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CreatureFunctioning.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Multiplier.cs" />
       </list>
     </option>
   </component>
@@ -148,7 +150,8 @@
     <MESSAGE value="23.12.21" />
     <MESSAGE value="24.12.21" />
     <MESSAGE value="27.12.21" />
-    <option name="LAST_COMMIT_MESSAGE" value="27.12.21" />
+    <MESSAGE value="28.12.21&#10;Need to ReUse Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="28.12.21&#10;Need to ReUse Code" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1877" height="375" key="GridCell.Tab.0.bottom" timestamp="1640326056514">
@@ -219,6 +222,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="240" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1640092140553" />
+    <state x="638" y="255" width="644" height="530" key="find.popup" timestamp="1640769789940">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="638" y="255" width="644" height="530" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1640769789940" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1640689399562">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -12,8 +12,9 @@ public class BirdGateScript : MonoBehaviour
 
 		if (other.CompareTag("Player"))
 		{
-			print("player came here");
-			BirdFunctioning.instance.BirdTransformation();
+			//print("player came here");
+			//BirdFunctioning.instance.BirdTransformation();
+			
 			isUsed = true;	
 		}
 	}

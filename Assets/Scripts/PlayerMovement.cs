@@ -1,13 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
-using Cinemachine;
-using Cinemachine.Editor;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
 	public static PlayerMovement instance;
+
+	private CreatureFunctioning _creatureFunctioning;
+	
+	public Species CurrentSpecies;
+	public CreatureType currentCreatureType;
 	
 	[SerializeField]private float xForce;
 	[SerializeField]private float xSpeed;
@@ -31,6 +33,14 @@ public class PlayerMovement : MonoBehaviour
 		isOnGround = true;
 	}
 
+	void Start()
+	{
+		_creatureFunctioning = CreatureFunctioning.instance;
+		print(_creatureFunctioning);
+		CurrentSpecies = Species.Human;
+		currentCreatureType = CreatureType.Human;
+	}
+
 	void Update()
 	{
 		if (isOnGround)
@@ -48,8 +58,6 @@ public class PlayerMovement : MonoBehaviour
 			}	
 		}
 		
-		
-			
 	#if UNITY_EDITOR
 			xForce = Input.GetMouseButton(0) ? Input.GetAxis("Mouse X") * xSpeed : 0;
 	#elif UNITY_ANDROID
@@ -60,8 +68,7 @@ public class PlayerMovement : MonoBehaviour
           }
 	#endif
 	}
-
-public Vector3 playerCurrentPosition;
+	
 	private void OnTriggerEnter(Collider other)
 	{
 		if (other.CompareTag("StartSnaking"))
@@ -73,7 +80,30 @@ public Vector3 playerCurrentPosition;
 			StartCoroutine(DoSnake());
 			snakeManCamera.gameObject.SetActive(true);
 		}
+
+		if (other.CompareTag("GiantGate"))
+		{
+			AddTheChildrenBack();
+			currentCreatureType = CreatureType.Giant;
+			CreatureFunctioning.instance.CreatureTransformation(CurrentSpecies,currentCreatureType);
+			CurrentSpecies = Species.Creature;
+		}
 		
+		if (other.CompareTag("SnakeGate"))
+		{
+			AddTheChildrenBack();
+			currentCreatureType = CreatureType.Snake;
+			CreatureFunctioning.instance.CreatureTransformation(CurrentSpecies,currentCreatureType);
+			CurrentSpecies = Species.Creature;
+		}
+		
+		if (other.CompareTag("BirdGate"))
+		{
+			AddTheChildrenBack();
+			currentCreatureType = CreatureType.Bird;
+			CreatureFunctioning.instance.CreatureTransformation(CurrentSpecies,currentCreatureType);
+			CurrentSpecies = Species.Creature;
+		}
 	}
 
 	IEnumerator DoSnake()
@@ -84,7 +114,21 @@ public Vector3 playerCurrentPosition;
 			yield return new WaitForSeconds(Time.deltaTime);
 		}
 	}
-	
-	
+
+	public void AddTheChildrenBack()
+	{
+		if (CurrentSpecies == Species.Creature)
+		{
+			for (int i = _creatureFunctioning.usedChildren.Count - 1; i >= 0; i--)	
+			{
+				if(currentCreatureType == CreatureType.Giant)
+					_creatureFunctioning.giantChildren.Add(_creatureFunctioning.usedChildren[i]);
+				if(currentCreatureType == CreatureType.Snake) 
+					_creatureFunctioning.snakeChildren.Add(_creatureFunctioning.usedChildren[i]);
+				if(currentCreatureType == CreatureType.Bird) 
+					_creatureFunctioning.birdChildren.Add(_creatureFunctioning.usedChildren[i]);
+			}
+		}
+	}
 	
 }

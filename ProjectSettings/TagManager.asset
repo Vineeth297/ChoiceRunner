@@ -7,6 +7,9 @@ TagManager:
   - TimeToSnake
   - StartSnaking
   - EndSnaking
+  - BirdGate
+  - SnakeGate
+  - GiantGate
   layers:
   - Default
   - TransparentFX

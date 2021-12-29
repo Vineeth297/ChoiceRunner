@@ -17,10 +17,6 @@ public class CrowdFollow : MonoBehaviour
         // transform.position = smoothPos;
         // transform.eulerAngles = charToFollow.eulerAngles;
 
-		if (!isRolling)
-		{
-			
-		}
 		transform.position = charToFollow.transform.position + followOffset;
 		transform.eulerAngles = charToFollow.eulerAngles;
 
